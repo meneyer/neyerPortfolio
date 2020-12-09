@@ -1,0 +1,130 @@
+body{
+    color: white;
+    background-image: url("https://images.unsplash.com/photo-1567359781514-3b964e2b04d6?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjd8fHB1cnBsZSUyMGJhY2tncm91bmQlMjB0ZXh0dXJlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Spectral', serif;
+}
+.wrapper{
+    margin: 7px;
+}
+
+
+/*NAVBAR*/
+.navbar{
+    display: flex;
+    flex-direction: row;
+    z-index: 99;
+    position: sticky;    
+    background-color: rgb(106, 156, 187, 0.85);
+    color: white;
+    border: solid 1px white;  
+    margin: 7px;
+}
+
+.navbar a{
+    color: white;
+    margin: 5px 25px;
+    font-size: 24px;  
+}
+
+#navbarMyName{
+    position: relative;
+    left: 20px;
+    top: 8px;
+    font-size: 24px;  
+}
+
+
+
+/*HEADER*/
+header{
+    padding: 20px 20px 0px 20px;
+}
+
+.photo{
+    border: solid 5px  rgb(130, 55, 136, 0.75);
+    border-radius: 15%;
+}
+
+.name{
+    color: white;
+    justify-content: center;
+  }
+
+/*MULTIPLE ITEMS*/
+.alert{
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(130, 55, 136, 0.75);
+    color: white;
+    margin: 20px 0px;
+}
+
+.wrapperCarousel{
+    margin: 7px;
+}
+
+/*ABOUT ME*/
+.carousel-caption{
+    top: 10px;
+}
+
+.carousel-item ul{
+    font-size: 24px;
+}
+
+.carousel-item p{
+    font-size: 24px;
+}
+
+/*PROJECTS*/
+.card-img-top{
+    height: 15vw;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card{
+    background-color: black;
+    color: white;
+    border: solid 2px white;
+    border-radius: 2%;
+}
+
+.cardButton{
+    background-color: rgba(227, 34, 150, 0.8);
+    border: none;
+}
+
+#roseAwards{
+    font-size: 22px;
+}
+
+
+/*CONTACT*/
+.formspree{
+    width: 50vw;
+}
+
+.resumeButton{
+    background-color:  rgba(227, 34, 150, 0.8);
+    color: white;
+    border: none;
+    border-radius: 2%;
+}
+
+
+/*FOOTER*/
+.footer{
+    position: relative;
+    padding-top: 20px;
+    padding-right: 15px;
+    float: right;
+}
+
+
+
+
+
