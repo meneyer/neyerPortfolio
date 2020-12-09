@@ -79,6 +79,10 @@ header{
     font-size: 24px;
 }
 
+.wrapperAboutMeTwo{
+    background-color: rgb(106, 156, 187, 0.60);
+}
+
 /*PROJECTS*/
 .card-img-top{
     height: 15vw;
