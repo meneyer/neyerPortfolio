@@ -4,7 +4,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Spectral', serif;
+    text-align: justify;
 }
+
 .wrapper{
     margin: 7px;
 }
@@ -60,27 +62,56 @@ header{
     background-color: rgb(130, 55, 136, 0.75);
     color: white;
     margin: 20px 0px;
+   
 }
 
-.wrapperCarousel{
-    margin: 7px;
-}
 
 /*ABOUT ME*/
-.carousel-caption{
+.wrapperAboutMe{
+    background-color: rgb(106, 156, 187, 0.70);
+    border-radius: 5%;
+    margin: 7px 160px;
+    padding: 20px 0px;
+}
+
+#workPhoto{
+    border: solid 2px white;
+    border-radius: 5%;
+    position: relative;
+    top: 40px;
+}
+
+.aboutMeTitle{
+    color: white;
+    text-align: center;
+}
+
+.textAboutMe{
+    font-size: 22px;
+}
+
+.roseAwards{
+    font-size: 22px;
+    text-align: center;
+}
+
+#roseExplain{
+    font-size: 18px;
+}
+
+#roseAwardsPhoto{
+   border: solid 3px white;
+   border-radius: 5%;
+   position: relative;
+   top: 60px;
+}
+
+#skillsPhoto{
+    border: solid 3px none;
+    border-radius: 5%;
+    position: relative;
     top: 10px;
-}
-
-.carousel-item ul{
-    font-size: 24px;
-}
-
-.carousel-item p{
-    font-size: 24px;
-}
-
-.wrapperAboutMeTwo{
-    background-color: rgb(106, 156, 187, 0.60);
+    left: 10px;
 }
 
 /*PROJECTS*/
@@ -108,15 +139,86 @@ header{
 
 
 /*CONTACT*/
-.formspree{
-    width: 50vw;
+
+.contactFormTitle{
+    color:white;
+    font-size: 25px;
+    position: relative;
+    left: 20px;    
+}
+
+.form{
+    background-color:  rgba(106, 156, 187, 0.70);
+    color: white; 
+    padding: 10px 30px 20px 0px;
+    border: solid 1px white;
+    border-radius: 3%;   
+    width: 350px; 
+    text-align: center;  
+    position: relative;
+    left: 180px;
+}
+
+label.field {
+    text-align:right;
+    width: 100px;
+    font-size: 20px;
+}
+
+input.textbox{
+    width: 300px;
+}
+
+#submitButton{
+    background-color: rgba(227, 34, 150, 0.8);
+    color: white;
+    border: solid 2px white;
+    border-radius: 5%;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;    
+    position: relative;
+    left: 20px;
+    width: 250px;    
+}
+
+.links{
+    background-color:  rgba(106, 156, 187, 0.70);
+    color: white; 
+    padding: 10px 5px 45px 0px;
+    border: solid 1px white;
+    border-radius: 3%;   
+    width: 350px; 
+    text-align: center;  
+    position: relative;
+    left: 5px;
+}
+
+.linksTitle{
+    color:white;
+    font-size: 25px;  
+}
+
+#linkedInLogo{
+    position: relative;
+    right: 10px;
+    top: 10px
+}
+
+#githubLogo{  
+    position: relative;
+    left: 10px;
+    top: 10px
 }
 
 .resumeButton{
     background-color:  rgba(227, 34, 150, 0.8);
     color: white;
-    border: none;
-    border-radius: 2%;
+    border: solid 2px white;
+    border-radius: 5%;
+    position: relative;
+    top: 30px;
+    left: 4px;
 }
 
 
