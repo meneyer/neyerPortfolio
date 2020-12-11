@@ -3,7 +3,7 @@ body{
     background-image: url("https://images.unsplash.com/photo-1567359781514-3b964e2b04d6?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjd8fHB1cnBsZSUyMGJhY2tncm91bmQlMjB0ZXh0dXJlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Spectral', serif;
+    font-family: 'Spectral', serif; 
     text-align: justify;
 }
 
@@ -46,7 +46,7 @@ header{
 
 .photo{
     border: solid 5px  rgb(130, 55, 136, 0.75);
-    border-radius: 15%;
+    border-radius: 25%;
 }
 
 .name{
@@ -70,15 +70,16 @@ header{
 .wrapperAboutMe{
     background-color: rgb(106, 156, 187, 0.70);
     border-radius: 5%;
-    margin: 7px 160px;
-    padding: 20px 0px;
+    margin: 7px 10px;
+    padding: 20px 20px
 }
 
 #workPhoto{
     border: solid 2px white;
     border-radius: 5%;
     position: relative;
-    top: 40px;
+    top: 10px;
+    left: 10px;
 }
 
 .aboutMeTitle{
@@ -103,15 +104,14 @@ header{
    border: solid 3px white;
    border-radius: 5%;
    position: relative;
-   top: 60px;
+   left: 45px;
 }
 
 #skillsPhoto{
     border: solid 3px none;
     border-radius: 5%;
     position: relative;
-    top: 10px;
-    left: 10px;
+    left: 25px;
 }
 
 /*PROJECTS*/
@@ -155,8 +155,7 @@ header{
     border-radius: 3%;   
     width: 350px; 
     text-align: center;  
-    position: relative;
-    left: 180px;
+    position: relative; 
 }
 
 label.field {
@@ -191,7 +190,6 @@ input.textbox{
     width: 350px; 
     text-align: center;  
     position: relative;
-    left: 5px;
 }
 
 .linksTitle{
