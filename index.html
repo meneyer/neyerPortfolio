@@ -17,8 +17,10 @@
 <body>
   
   <!--NAVBAR-->
+  <a id="goToTop"></a>
     <nav class="navbar sticky-top">
-      <p id="navbarMyName">Megs Neyer</p>
+      <!-- <p>Megs Neyer</p> -->
+      <a class="navbar-brand" href="#goToTop">Megs Neyer</a>
       <div id="navbarItems">
         <a class="navbar-brand" href="#aboutMeSection">About Me</a>
         <a class="navbar-brand" href="#projectsSection">Projects</a>
@@ -32,15 +34,15 @@
         <div class = "container-fluid">
           <div class = "row">
             <div class = "col-md-2"></div>
-            <div class = "col-md-3">
-              <img class = "photo" src="./assets/Megs_BW_2016 Headshot_Smaller.png" width=300px>
-            </div>
+              <div class = "col-md-3">
+                  <img class = "photo" src="./assets/Megs_BW_2016 Headshot_Smaller.png" width=300px>
+                </div>
             <div class = "col-md-7">
               <br> 
               <br>     
-              <h1 class="name">Megan "Megs" Neyer</h1>
+              <h1 class="name">Megan "Megs" Neyer</h1>                 
               <br>
-              <h3>(?)Jr./EntryLvl/Frelnc(?) Website Developer</h3>
+              <h3 class = "description">(?)Jr./EntryLvl/Frelnc(?) Website Developer</h3>
             </div>
             <div class = "col-md-1"></div>
           </div> 
@@ -112,9 +114,9 @@
         PROJECTS
         </div>
       </a>
-      <div class = "container-fluid">
+      <div class = "container">
         <div class = "form-row text-center">
-          <div class = "col-md-1"></div> 
+          <div class = "col-md-4">
             <div class="card" style="width: 20rem;">
               <img src="./assets/cssCreature3.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -123,25 +125,28 @@
                 <a href="https://codepen.io/meneyer/full/BazGgXQ" target = blank class="btn btn-primary cardButton">Visit my Alien</a>
               </div>
             </div>          
-            <div class = "col-md-1"></div> 
-            <div class="card" style="width: 20rem;">
-              <img src="./assets/staticLayoutSnip.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Static Layout</h5>
-                <p class="card-text">Challenge: Duplicate the static layout of an existing website</p>
-                <a href="https://meneyer.github.io/staticLayout/" target = blank class="btn btn-primary cardButton">My Recreation</a>
-                <a href="https://www.kastapp.co/index.html" target = blank class="btn btn-primary cardButton">The Orginal</a>
-              </div>
-            </div>                      
-            <div class = "col-md-1"></div> 
-            <div class="card" style="width: 20rem;">
-              <img src="./assets/cssCreature.png" target = blank class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">API Project Placeholder</h5>
-                <p class="card-text">API Project Words on two lines so it matches</p>
-                <a href="#" class="btn btn-primary cardButton">Go somewhere</a>
-              </div>
-            </div>           
+          </div> 
+            <div class = "col-md-4">
+              <div class="card" style="width: 20rem;">
+                <img src="./assets/staticLayoutSnip.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Static Layout</h5>
+                  <p class="card-text">Challenge: Duplicate the static layout of an existing website</p>
+                  <a href="https://meneyer.github.io/staticLayout/" target = blank class="btn btn-primary cardButton">My Recreation</a>
+                  <a href="https://www.kastapp.co/index.html" target = blank class="btn btn-primary cardButton">The Orginal</a>
+                </div>
+              </div>                      
+            </div> 
+            <div class = "col-md-4">
+              <div class="card" style="width: 20rem;">
+                <img src="#" target = blank class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">API Project Placeholder</h5>
+                  <p class="card-text">API Project Words on two lines so it matches</p>
+                  <a href="#" class="btn btn-primary cardButton">Go somewhere</a>
+                </div>
+              </div>           
+            </div> 
         </div>          
       </div>
       
@@ -156,15 +161,14 @@
         CONTACT
         </div>
       </a>
-      <div class = "container-fluid">
+      <div class = "container">
         <div class = "row">
           <div class = col-md-2></div>
           <div class = "col-md-3">
             <div class = "form">           
               <form action="https://formspree.io/f/xdopwezr" method="POST">
                 <fieldset> 
-                  <legend class="contactFormTitle"><u>CONTACT FORM</u></legend>
-  
+                  <legend class="contactFormTitle"><u>CONTACT FORM</u></legend>  
                     <label class = "field">Name:</label>
                     <input type="text" name="name">
                     <br>
@@ -174,18 +178,17 @@
                     <label class = "field">Message:</label>
                     <input type="text" name="message">
                     <br> 
-
                     <input id = "submitButton" type="submit" value="Send">
                 </fieldset>
               </form>
             </div>
           </div>
-          <div class = "col-md-2"></div>
+          <div class = "col-md-1"></div>
           <div class = "col-md-4">
             <div class = "links">
             <h2 class = "linksTitle"><u>LINKS</u></h2>
-              <a id="linkedInLogo" href="https://www.linkedin.com/in/megs-neyer-3608a7a4/" target = blank><img src="./assets/LinkedIn.png" height =100px></a>
-              <a id="githubLogo" href="https://github.com/meneyer" target = blank><img src ="./assets/github.png" height=100px></a>              
+              <a id="linkedInLogo" href="https://www.linkedin.com/in/megs-neyer-3608a7a4/" target = blank><img src="./assets/LinkedIn.png" height =95px></a>
+              <a id="githubLogo" href="https://github.com/meneyer" target = blank><img src ="./assets/github.png" height=95px></a>              
                 <a href="https://docs.google.com/document/d/14i-e1NlQFryoqpnBXWhrXUe4rw6mBEi4FX5rKzaNRk8/edit?usp=sharing" target = blank>
                   <button type="button" class="btn btn-primary btn-lg resumeButton">Download My Resume</button>
                 </a>

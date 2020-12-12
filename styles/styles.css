@@ -4,7 +4,11 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Spectral', serif; 
-    text-align: justify;
+    text-align: justify;    
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 .wrapper{
@@ -50,9 +54,12 @@ header{
 }
 
 .name{
-    color: white;
-    justify-content: center;
-  }
+    text-align: left;
+}
+
+.description{
+    text-align: left;
+}
 
 /*MULTIPLE ITEMS*/
 .alert{
@@ -174,7 +181,7 @@ input.textbox{
     border: solid 2px white;
     border-radius: 5%;
     font-size: 20px;
-    padding: 5px;
+    padding: 5px 5px 10px 5px;
     margin: 5px;    
     position: relative;
     left: 20px;
@@ -184,7 +191,7 @@ input.textbox{
 .links{
     background-color:  rgba(106, 156, 187, 0.70);
     color: white; 
-    padding: 10px 5px 45px 0px;
+    padding: 10px 5px 55px 0px;
     border: solid 1px white;
     border-radius: 3%;   
     width: 350px; 
@@ -223,8 +230,8 @@ input.textbox{
 /*FOOTER*/
 .footer{
     position: relative;
-    padding-top: 20px;
-    padding-right: 15px;
+    padding-top: 40px;
+    padding-right: 80px;
     float: right;
 }
 
