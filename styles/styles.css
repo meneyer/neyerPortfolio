@@ -75,10 +75,10 @@ header{
 
 /*ABOUT ME*/
 .wrapperAboutMe{
-    background-color: rgb(106, 156, 187, 0.70);
+    background-color: rgb(106, 156, 187, 0.8);
     border-radius: 5%;
     margin: 7px 10px;
-    padding: 20px 20px
+    padding: 20px 20px;
 }
 
 #workPhoto{
@@ -103,22 +103,18 @@ header{
     text-align: center;
 }
 
-#roseExplain{
-    font-size: 18px;
+#roseAwardLink{
+    color:white;
 }
 
 #roseAwardsPhoto{
    border: solid 3px white;
-   border-radius: 5%;
-   position: relative;
-   left: 45px;
+   border-radius: 5%;  
 }
 
 #skillsPhoto{
     border: solid 3px none;
     border-radius: 5%;
-    position: relative;
-    left: 25px;
 }
 
 /*PROJECTS*/
@@ -176,22 +172,34 @@ input.textbox{
 }
 
 #submitButton{
-    background-color: rgba(227, 34, 150, 0.8);
+    background-color:transparent;
     color: white;
-    border: solid 2px white;
+    border: none;
     border-radius: 5%;
     font-size: 20px;
     padding: 5px 5px 10px 5px;
     margin: 5px;    
     position: relative;
+    bottom: 6px;    
+    width: 200px;   
+    height: 25px; 
+    text-align: center;
+}
+
+.submitButton2{
+    background-color:  rgba(227, 34, 150, 0.8);
+    color: white;
+    border: solid 2px white;
+    border-radius: 5%;
+    position: relative;   
     left: 20px;
-    width: 250px;    
+    top: 5px;
 }
 
 .links{
     background-color:  rgba(106, 156, 187, 0.70);
     color: white; 
-    padding: 10px 5px 55px 0px;
+    padding: 10px 5px 45px 0px;
     border: solid 1px white;
     border-radius: 3%;   
     width: 350px; 
