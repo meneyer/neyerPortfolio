@@ -184,6 +184,7 @@ input.textbox{
     width: 200px;   
     height: 25px; 
     text-align: center;
+
 }
 
 .submitButton2{
@@ -193,7 +194,8 @@ input.textbox{
     border-radius: 5%;
     position: relative;   
     left: 20px;
-    top: 5px;
+    top: 4px;
+
 }
 
 .links{
