@@ -84,9 +84,6 @@ header{
 #workPhoto{
     border: solid 2px white;
     border-radius: 5%;
-    position: relative;
-    top: 10px;
-    left: 10px;
 }
 
 .aboutMeTitle{
@@ -110,6 +107,8 @@ header{
 #roseAwardsPhoto{
    border: solid 3px white;
    border-radius: 5%;  
+   position: relative;
+   float: right;
 }
 
 #skillsPhoto{
